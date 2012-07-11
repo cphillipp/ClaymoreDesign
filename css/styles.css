@@ -125,15 +125,13 @@ body {
         margin: 0 30px 30px;
         padding: 20px;
         min-width: 620px;
-        background: #333;
-        overflow: hidden;
-        opacity: 0.5;
-        filter: alpha(opacity=50); }
+        background: #282828;
+        overflow: hidden; }
         body .wrapper .right section h3 {
           color: #AFEEEE; }
         body .wrapper .right section p {
           padding: 0 0 10px;
-          color: #fff; }
+          color: #E3E3E3; }
         body .wrapper .right section .box {
           margin: 0;
           padding: 0;

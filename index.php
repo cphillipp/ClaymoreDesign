@@ -30,7 +30,7 @@ if(isset($_SESSION['message'])) {
 </head>
 <body>
   <header>
-    <h1><a href="index.php">Claymore Design, Idaho Falls Web Design logo</a></h1>
+    <h1><a href="index.php">Claymore Design, Idaho Falls Web Design logo.</a></h1>
     <nav><a href="portfolio.php">Portfolio</a><a href="services.php">Services</a><a href="about.php">About Us</a><a href="faqs.php">FAQ'S</a><a href="contact.php">Contact</a></nav>
   </header>
   <div class="wrapper">
@@ -52,7 +52,7 @@ if(isset($_SESSION['message'])) {
       </form>
     </div>
     <div class="right">
-      <h2>THIS IS WHAT WE DO</h2>
+      <!-- <h2>THIS IS WHAT WE DO</h2> -->
       <ul>       
         <li><h3>Business Branding &amp;<br /> Print Services</h3><img src="images/branding2.png" alt="Local Idaho Falls business website" /><p>Streamline your entire business</p>
           <ul>
