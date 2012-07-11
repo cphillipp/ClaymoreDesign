@@ -4,6 +4,75 @@ fieldset,form,figcaption,figure,footer,header,hgroup,nav,section{margin:0; paddi
 figcaption,figure,footer,header,hgroup,nav,section{display:block;}
 
 /* BASE */
-body                            {background:#000000 url('../images/bg.jpeg') center top; font-family:'Abel', arial, sans;
-  
+body                    {background:#000000 url('../images/bg.jpeg') center top no-repeat; font-family:'Abel', arial, sans;
+  header 						    {width:100%; min-width:1000px; height:100px; border-bottom:1px solid #FFFFE0; position:relative;
+  	h1 							    {margin:-35px 0 0; position:absolute; top:50%; left:30px;
+  		a 						    {width:200px; height:53px; display:block; text-indent:-100%; font-size:0px; line-height:0px; background:url('../images/logo.png');}
+  	}    
+  	nav 						    {position:absolute; top:40%; right:20px;
+  		a 						    {margin:0 15px; padding:0 0 5px;color:#FFFFE0; text-decoration:none; text-transform:uppercase;
+  			&:hover 		    {color:#AFEEEE;}
+        &.active        {color:#AFEEEE; border-bottom:1px dashed #AFEEEE;}
+  		}   
+  	}    
+  }   
+  .wrapper 					    {margin:50px auto 20px; min-width:1000px; overflow:hidden;
+  	.left 					    {width:28%; float:left;
+  	 	h2 						    {padding:0 0 30px 30px; color:#AFEEEE; font-size:26px; text-transform:uppercase;}
+  		p 						    {padding:0 0 15px 30px; color:#A0ACAD; font-size:14px;}
+      label             {padding:0 0 0 30px; color:#F9459E; display:block; position:relative; top:-15px;}
+      input             {margin:0 0 15px 30px; padding:0 10px; width:230px; height:40px; color:#fff; font-size:20px; font-family:'Abel', arial, sans; display:block; background:#282828; border:none;
+        &.submit        {width:auto; height:28px; color:#E3E3E3; font-size:14px; cursor:pointer; -moz-border-radius:5px; border-radius:5px;
+          &:hover       {background:#343434; color:#AFEEEE;}
+        }
+      }
+      textarea          {margin:0 0 15px 30px; padding:0 10px; width:230px; height:100px; color:#fff; font-size:20px; font-family:'Abel', arial, sans; display:block; background:#282828; border:none; resize:none;}
+  	}    
+  	.right 					    {width:72%; float:right;
+      h2                {padding:0 30px 30px 0; color:#AFEEEE; font-size:26px; text-align:right; clear:both; text-transform:uppercase;}
+      h3                {padding:0 0 10px; color:#E3E3E3; font-size:22px;}
+      section           {margin:0 30px 30px; padding:20px; min-width:620px; background:#333; overflow:hidden; opacity:0.5; filter:alpha(opacity=50);
+        h3              {color:#AFEEEE;}
+        p               {padding:0 0 10px; color:#fff;}
+        .box            {margin:0; padding:0; width:50%; min-height:170px; float:left;
+          h4            {color:#F9459E; font-size:18px; text-transform:uppercase;}
+          p             {padding:0 20px 0 0;}
+        }
+        .line           {margin:10px 0 20px; width:auto; height:1px; border-bottom:1px dashed #AFEEEE;}
+        ul              {float:none; padding:0 0 15px;
+          li            {margin:0; padding:0 0 8px 24px; width:176px; float:none; color:#A0ACAD; line-height:1.3em; background:url(../images/marker-2.png) 1px 5px no-repeat;
+            a           {width:auto; height:auto; float:none; text-decoration:none; color:#fff;
+              &:hover   {color:#F9459E;}
+            }
+          }
+        }
+      }
+      ul                {padding:0 0 30px 31px; overflow:hidden; min-width:659px;
+        li              {margin:0 30px 30px 0; width:29%; display:block; float:right;
+          p             {padding:0 0 10px; color:#A0ACAD;}
+          a             {width:200px; height:250px; display:block; position:relative; float:right;
+            span        {width:200px; display:block; line-height:50px; position:absolute; bottom:0px; color:#818692; text-align:center; background:#191A1F;}
+            &.button    {padding:0 10px; width:auto; height:auto; color:#E3E3E3; line-height:28px; background:#282828; text-align:center; text-decoration:none; float:none; -moz-border-radius:5px; border-radius:5px;
+              &:hover   {background:#343434; color:#AFEEEE;}
+            }
+          }
+          ul            {float:none; padding:0 0 15px;
+            li          {margin:0; padding:0 0 8px 24px; width:176px; float:none; color:#A0ACAD; line-height:1.3em; background:url(../images/marker-2.png) 1px 5px no-repeat;}
+          }   
+        }   
+      }   
+    }   
+  }   
+  footer                {width:100%; min-width:1000px; height:80px; clear:both; position:relative;
+    .first              {width:28%; height:80px; background:#AFEEEE; border-right:31px solid #000; position:absolute; bottom:0px; left:0px;
+      p                 {padding:0 0 0 30px; color:#525355; font-size:14px; line-height:80px;}
+    }   
+    .second             {width:72%; height:80px; float:right; background:#F9459E;
+      ul                {padding:12px 0 0; list-style:none; overflow:hidden;
+        li              {padding:0 30px; float:right; color:#fff; font-size:14px; text-transform:uppercase; text-align:right;}
+        span            {padding:0 0 5px; font-size:20px; color:#000; display:block;}
+      }
+    }
+    &.fixed             {position:fixed; bottom:0;}
+  }
 }

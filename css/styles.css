@@ -15,5 +15,254 @@ figcaption, figure, footer, header, hgroup, nav, section {
 
 /* BASE */
 body {
-  background: black url("../images/bg.jpeg") center top;
+  background: black url("../images/bg.jpeg") center top no-repeat;
   font-family: 'Abel', arial, sans; }
+  body header {
+    width: 100%;
+    min-width: 1000px;
+    height: 100px;
+    border-bottom: 1px solid #FFFFE0;
+    position: relative; }
+    body header h1 {
+      margin: -35px 0 0;
+      position: absolute;
+      top: 50%;
+      left: 30px; }
+      body header h1 a {
+        width: 200px;
+        height: 53px;
+        display: block;
+        text-indent: -100%;
+        font-size: 0px;
+        line-height: 0px;
+        background: url("../images/logo.png"); }
+    body header nav {
+      position: absolute;
+      top: 40%;
+      right: 20px; }
+      body header nav a {
+        margin: 0 15px;
+        padding: 0 0 5px;
+        color: #FFFFE0;
+        text-decoration: none;
+        text-transform: uppercase; }
+        body header nav a:hover {
+          color: #AFEEEE; }
+        body header nav a.active {
+          color: #AFEEEE;
+          border-bottom: 1px dashed #AFEEEE; }
+  body .wrapper {
+    margin: 50px auto 20px;
+    min-width: 1000px;
+    overflow: hidden; }
+    body .wrapper .left {
+      width: 28%;
+      float: left; }
+      body .wrapper .left h2 {
+        padding: 0 0 30px 30px;
+        color: #AFEEEE;
+        font-size: 26px;
+        text-transform: uppercase; }
+      body .wrapper .left p {
+        padding: 0 0 15px 30px;
+        color: #A0ACAD;
+        font-size: 14px; }
+      body .wrapper .left label {
+        padding: 0 0 0 30px;
+        color: #F9459E;
+        display: block;
+        position: relative;
+        top: -15px; }
+      body .wrapper .left input {
+        margin: 0 0 15px 30px;
+        padding: 0 10px;
+        width: 230px;
+        height: 40px;
+        color: #fff;
+        font-size: 20px;
+        font-family: 'Abel', arial, sans;
+        display: block;
+        background: #282828;
+        border: none; }
+        body .wrapper .left input.submit {
+          width: auto;
+          height: 28px;
+          color: #E3E3E3;
+          font-size: 14px;
+          cursor: pointer;
+          -moz-border-radius: 5px;
+          border-radius: 5px; }
+          body .wrapper .left input.submit:hover {
+            background: #343434;
+            color: #AFEEEE; }
+      body .wrapper .left textarea {
+        margin: 0 0 15px 30px;
+        padding: 0 10px;
+        width: 230px;
+        height: 100px;
+        color: #fff;
+        font-size: 20px;
+        font-family: 'Abel', arial, sans;
+        display: block;
+        background: #282828;
+        border: none;
+        resize: none; }
+    body .wrapper .right {
+      width: 72%;
+      float: right; }
+      body .wrapper .right h2 {
+        padding: 0 30px 30px 0;
+        color: #AFEEEE;
+        font-size: 26px;
+        text-align: right;
+        clear: both;
+        text-transform: uppercase; }
+      body .wrapper .right h3 {
+        padding: 0 0 10px;
+        color: #E3E3E3;
+        font-size: 22px; }
+      body .wrapper .right section {
+        margin: 0 30px 30px;
+        padding: 20px;
+        min-width: 620px;
+        background: #333;
+        overflow: hidden;
+        opacity: 0.5;
+        filter: alpha(opacity=50); }
+        body .wrapper .right section h3 {
+          color: #AFEEEE; }
+        body .wrapper .right section p {
+          padding: 0 0 10px;
+          color: #fff; }
+        body .wrapper .right section .box {
+          margin: 0;
+          padding: 0;
+          width: 50%;
+          min-height: 170px;
+          float: left; }
+          body .wrapper .right section .box h4 {
+            color: #F9459E;
+            font-size: 18px;
+            text-transform: uppercase; }
+          body .wrapper .right section .box p {
+            padding: 0 20px 0 0; }
+        body .wrapper .right section .line {
+          margin: 10px 0 20px;
+          width: auto;
+          height: 1px;
+          border-bottom: 1px dashed #AFEEEE; }
+        body .wrapper .right section ul {
+          float: none;
+          padding: 0 0 15px; }
+          body .wrapper .right section ul li {
+            margin: 0;
+            padding: 0 0 8px 24px;
+            width: 176px;
+            float: none;
+            color: #A0ACAD;
+            line-height: 1.3em;
+            background: url(../images/marker-2.png) 1px 5px no-repeat; }
+            body .wrapper .right section ul li a {
+              width: auto;
+              height: auto;
+              float: none;
+              text-decoration: none;
+              color: #fff; }
+              body .wrapper .right section ul li a:hover {
+                color: #F9459E; }
+      body .wrapper .right ul {
+        padding: 0 0 30px 31px;
+        overflow: hidden;
+        min-width: 659px; }
+        body .wrapper .right ul li {
+          margin: 0 30px 30px 0;
+          width: 29%;
+          display: block;
+          float: right; }
+          body .wrapper .right ul li p {
+            padding: 0 0 10px;
+            color: #A0ACAD; }
+          body .wrapper .right ul li a {
+            width: 200px;
+            height: 250px;
+            display: block;
+            position: relative;
+            float: right; }
+            body .wrapper .right ul li a span {
+              width: 200px;
+              display: block;
+              line-height: 50px;
+              position: absolute;
+              bottom: 0px;
+              color: #818692;
+              text-align: center;
+              background: #191A1F; }
+            body .wrapper .right ul li a.button {
+              padding: 0 10px;
+              width: auto;
+              height: auto;
+              color: #E3E3E3;
+              line-height: 28px;
+              background: #282828;
+              text-align: center;
+              text-decoration: none;
+              float: none;
+              -moz-border-radius: 5px;
+              border-radius: 5px; }
+              body .wrapper .right ul li a.button:hover {
+                background: #343434;
+                color: #AFEEEE; }
+          body .wrapper .right ul li ul {
+            float: none;
+            padding: 0 0 15px; }
+            body .wrapper .right ul li ul li {
+              margin: 0;
+              padding: 0 0 8px 24px;
+              width: 176px;
+              float: none;
+              color: #A0ACAD;
+              line-height: 1.3em;
+              background: url(../images/marker-2.png) 1px 5px no-repeat; }
+  body footer {
+    width: 100%;
+    min-width: 1000px;
+    height: 80px;
+    clear: both;
+    position: relative; }
+    body footer .first {
+      width: 28%;
+      height: 80px;
+      background: #AFEEEE;
+      border-right: 31px solid #000;
+      position: absolute;
+      bottom: 0px;
+      left: 0px; }
+      body footer .first p {
+        padding: 0 0 0 30px;
+        color: #525355;
+        font-size: 14px;
+        line-height: 80px; }
+    body footer .second {
+      width: 72%;
+      height: 80px;
+      float: right;
+      background: #F9459E; }
+      body footer .second ul {
+        padding: 12px 0 0;
+        list-style: none;
+        overflow: hidden; }
+        body footer .second ul li {
+          padding: 0 30px;
+          float: right;
+          color: #fff;
+          font-size: 14px;
+          text-transform: uppercase;
+          text-align: right; }
+        body footer .second ul span {
+          padding: 0 0 5px;
+          font-size: 20px;
+          color: #000;
+          display: block; }
+    body footer.fixed {
+      position: fixed;
+      bottom: 0; }
