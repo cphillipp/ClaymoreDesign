@@ -4,6 +4,9 @@ fieldset,form,figcaption,figure,footer,header,hgroup,nav,section{margin:0; paddi
 figcaption,figure,footer,header,hgroup,nav,section{display:block;}
 html,body               {height:100%;}
 body:before             {content:""; height:100%; float:left; width:0; margin-top:-32767px;}
+::selection             {background-color:#F9459E; color:#FFFFFF;}
+::moz-selection         {background-color:#F9459E; color:#FFFFFF;}
+::webkit-selection      {background-color:#F9459E; color:#FFFFFF;}
 
 /* BASE */
 body                    {background:#000000 url('../images/bg.jpeg') center top no-repeat; font-family:'Abel', arial, sans;

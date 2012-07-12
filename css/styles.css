@@ -23,6 +23,18 @@ body:before {
   width: 0;
   margin-top: -32767px; }
 
+::selection {
+  background-color: #F9459E;
+  color: #FFFFFF; }
+
+::moz-selection {
+  background-color: #F9459E;
+  color: #FFFFFF; }
+
+::webkit-selection {
+  background-color: #F9459E;
+  color: #FFFFFF; }
+
 /* BASE */
 body {
   background: black url("../images/bg.jpeg") center top no-repeat;

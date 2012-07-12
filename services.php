@@ -12,7 +12,7 @@ if(isset($_SESSION['message'])) {
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
   <meta name="description" content="Our past web projects can be seen here. Each design is tailored for the individual needs of each business."/>
   <meta name="keywords" content="idaho falls web design, idaho web design, web design, idaho, idaho falls web design portfolio, seo idaho falls, idaho falls seo, idaho seo, seo idaho, web design, website design idaho falls, idaho falls website design, website design portfolio"/>
-  <title>Our Services | Idaho Falls Web Design Company | Claymore Design</title>
+  <title>Our Services | Idaho Falls Web Design Company Services | Claymore Design</title>
   <link rel="shortcut icon" href="images/favicon.ico" />
   <link rel="stylesheet" href="css/styles.css" />
   <link href='http://fonts.googleapis.com/css?family=Abel|Squada+One' rel='stylesheet' type='text/css' />
@@ -37,8 +37,8 @@ if(isset($_SESSION['message'])) {
 <body>
   <div class="wrapper">
     <header>
-      <h1><a href="index.php">Claymore Design, Idaho Falls Web Design logo</a></h1>
-      <nav><a href="index.php">Home</a><a href="portfolio.php">Portfolio</a><a href="services.php" class="active">Services</a><a href="about.php">About Us</a><a href="faqs.php">FAQ'S</a><a href="contact.php">Contact</a></nav>
+      <h1><a href="index.php" title="Claymore Design Home Page">Claymore Design, Idaho Falls Web Design logo.</a></h1>
+      <nav><a href="index.php" title="Claymore Design Home Page">Home</a><a href="portfolio.php" title="Portfolio of Business Websites">Portfolio</a><a href="services.php" class="active" title="Website Services We Offer">Services</a><a href="about.php" title="About Claymore Design websites">About Us</a><a href="faqs.php" title="Frequently Asked Questions for Business Websites">FAQ'S</a><a href="contact.php" title="Claymore Design Business Website Contact Information">Contact</a></nav>
     </header>
     <div class="main">
       <div class="left">
