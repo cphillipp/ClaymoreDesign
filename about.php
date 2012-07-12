@@ -89,12 +89,13 @@ if(isset($_SESSION['message'])) {
       <div class="right">        
         <h2>Who We Are</h2>
         <section>
-          <h3>About Claymore Design</h3>
-          <p>Our highly Trained & Educated team comes equipped with extensive knowledge in Graphics, Layout, Design, and is backed by years of experience in Internet Marketing and Solutions.</p>
-          <p>Claymore Design can help Brand &amp; Establish your company from the ground up. We can create websites, logos, color-schemes, and graphics that will serve to give your website an overall more marketable identity.</p>
+          <h3>Clayton Phillipp</h3>
+          <img src="images/me.png" alt="Idaho Falls Business Owner Clayton Phillipp" />
+          <p>My name is Clayton Phillipp, and I live in Idaho Falls, Idaho. I met my wife at Brigham Young University, Idaho, where I graduated in 2009.</p>
+          <p>I started Claymore Design in Idaho Falls, Idaho, in order to pursue my passion for design and web development technologies. My goal is to create a home based web design, development, and marketing company that has very low overhead so that I can charge less then any other design company in the area.</p>
           <div class="line"></div>
           <h3>Past Experience</h3>
-          <p>We have spent years culminating our talents with strong passion. Here is a list of past work experience that was used to develop our skills.</p>
+          <p>After graduation, I spent several years working in web development with several businesses located in Idaho Falls, Idaho, and Rexburg, Idaho. Here are some of the websites I have helped develop.</p>
           <ul>
             <li><a href="http://www.zumiez.com/" target="_blank" title="Clothing Website">www.zumiez.com</a></li>
             <li><a href="http://www.allenbrothers.com/" target="_blank" title="Steakhouse Website">www.allenbrothers.com</a></li>
@@ -103,8 +104,10 @@ if(isset($_SESSION['message'])) {
             <li><a href="http://www.rejuvenation.com/" target="_blank" title="Lighting and Hardware Website">www.rejuvenation.com</a></li>
             <li>AND MANY MORE!</li>
           </ul>
-          <h3>Superior Support</h3>
-          <p>Perhaps most importantly, we want to emphasize our commitment to superior customer service. We realize that the backbone to any successful business is not only understanding what the customer wants, but correctly executing their demands in an orderly fashion. In this business it is especially important because a design needs to be an exact extension of that company or individual. We want you to understand where we are coming from and we will always attempt to answer any questions that you may have to the best of our abilities. By understanding our clients we have been able to not only meet their wishes, we’ve been able to exceed their expectations. Which is why we work with you step-by-step, no changes, or updates are made until you are completely aware and in agreeance. This ensures a quicker turnaround time and a better experience our company and your’s.</p>
+          <div class="line"></div>
+          <h3>My Goals</h3>
+          <p>My main focus in starting Claymore Design is to help the small businesses and entrepreneurs who have a desire to succeed and make money online.</p>
+          <p>I also want to share my knowledge of Web Design &amp; Marketing with my clients. I believe every business has the potential to learn more about Web Design & Online Marketing Technologies.</p>
         </section>
       </div>
     </div>

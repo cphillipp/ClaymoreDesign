@@ -89,15 +89,15 @@ if(isset($_SESSION['message'])) {
       <div class="right">     
         <h2>Contact Us</h2>
         <section>
-          <h3>Looking for a quote?</h3>
-          <p>Claymore Design is located in the heart of Idaho Falls. Contact us for possible solutions for your business.</p>
+          <h3>How To Reach Us</h3>
+          <p>Claymore Design is located in the heart of Idaho Falls.<!--  Contact us for possible solutions for your business. --></p>
+          <p>In order to ensure the greatest outcome for your business we take great care throughout the development process. We start with an assessment about your business goals in order to understand your specific needs or wants.</p>
+          <p>Once we fully understand everything we can about you, we will come up with the perfect strategy to meet all your goals and expectations.</p>
           <div class="line"></div>
-          <h3>Phone</h3>
-          <p>Call us for a free consultation and website review.</p>
-          <p>208.390.7477 - (9am to 6pm)</p>
-          <h3>Email</h3>
-          <p>Use the form on the left to send us an email.</p>
-          <p>hello@claymoredesigns.com</p>
+          <h3>Looking For A Quote?</h3>
+          <p>Call us for a free consultation and website review. Or Use the form on the left to send us an email.</p>
+          <h4>Phone: <span>208.390.7477 - (9am to 6pm)</span></h4>
+          <h4>Email: <span>hello@claymoredesigns.com</span></h4>
         </section>
       </div>
     </div>

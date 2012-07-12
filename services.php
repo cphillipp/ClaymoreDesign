@@ -87,23 +87,23 @@ if(isset($_SESSION['message'])) {
         </div>
       </div>
       <div class="right">        
-        <h2>Our Services</h2>
+        <h2>What We Do</h2>
         <section>
-          <h3>We Create Websites</h3>
-          <p>In order to ensure the greatest outcome for your business we like to follow a strict set of guidelines and check points throughout the development process. We start with an assessment gathering information from you about your business or goals. We like to understand your specific needs or wants, and what your business means to your clients and to you, yourself.</p>
-          <p>Once we fully understand everything we can about you, we will come up with the perfect strategy to meet all your goals and expectations. Finally, we will execute, working with you step-by-step in building and branding your business, along with advertising it to the worlds greatest market.</p>
+          <h3>Our Services</h3>
+          <p>With our extensive knowledge in Design and Internet Marketing Solutions, Claymore Design can help you Brand &amp; Establish your company.</p> 
+          <p>We create websites, logos, color-schemes, and graphics that will improve your Business &amp; Website Identity. We can teach you how to understand the web in order to get your business to the top of all major search engines.</p>
           <div class="line"></div>
           <div class="box">
             <h4>Web Design</h4>
-            <p>When it comes to a website, you must represent your business correctly in order to get the most out of it. We are educated in every aspect of creating a premier effective website. We deliver crisp professional designs for the fraction of a cost of main stream design firms.</p>
+            <p>Having a website to showcase your business is very important. At Claymore Design we take the confusion, frustration and worry out of designing a website. We develop affordable custom websites for every need.</p>
           </div>
           <div class="box">
             <h4>Graphic Design</h4>
-            <p>We can create all types of graphic designs from simple and modest, to very technical and intricate. Our professional team brings a full spectrum of style and intelect into every design project that we take part in. No matter your needs we have got you covered.</p>
+            <p>We can create all types of graphic designs from simple and modest, to very technical and intricate. Our website designs bring the full spectrum of style and intelect into every design project that we take part in.</p>
           </div>
           <div class="box">
             <h4>Internet Marketing</h4>
-            <p>Our team has an enormous amount of marketing strategies & techniques that will benefit the promotion of your business dramatically. We make sure you are heard and more importantly remembered.</p>
+            <p>Our business uses the best marketing strategies &amp; techniques that will benefit the promotion of your business dramatically. We make sure you are heard and more importantly remembered.</p>
           </div>
           <div class="box">
             <h4>Social Media</h4>
@@ -131,8 +131,11 @@ if(isset($_SESSION['message'])) {
           </div>
           <div class="box">
             <h4>Branding</h4>
-            <p>The brand of your business says a lot about your business in a whole. You need to have a simple yet eye catching and memorable brand more then anything. We specialize in creating brand power that everyone will remember.</p>
+            <p>The brand of your business says a lot about your business as a whole. You need to have a simple yet eye catching and memorable brand more then anything. We specialize in creating brand power that everyone will remember.</p>
           </div>
+          <div class="line"></div>
+          <h3>Superior Support</h3>
+          <p>Perhaps most importantly, we want to emphasize our commitment to superior customer service. We realize that the backbone to any successful business is not only understanding what the customer wants, but correctly executing their demands in an orderly fashion. In this business it is especially important because a design needs to be an exact extension of that company or individual. We want you to understand where we are coming from and we will always attempt to answer any questions that you may have to the best of our abilities. By understanding our clients we have been able to not only meet their wishes, we’ve been able to exceed their expectations. Which is why we work with you step-by-step, no changes, or updates are made until you are completely aware and in agreeance. This ensures a quicker turnaround time and a better experience for our company and your's.</p>
         </section>
       </div>
     </div>
