@@ -60,7 +60,7 @@ if(isset($_SESSION['message'])) {
       </div>
       <div class="right">     
         <h2>Contact Us</h2>
-        <section style="height:1000px;">
+        <section>
           <h3>Looking for a quote?</h3>
           <p>Claymore Design is located in the heart of Idaho Falls. Contact us for possible solutions for your business.</p>
           <div class="line"></div>
