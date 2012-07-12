@@ -112,6 +112,7 @@ body {
         background: #282828;
         border: none; }
         body .wrapper .left input.submit {
+          margin-bottom: 30px;
           width: auto;
           height: 28px;
           color: #E3E3E3;
@@ -136,6 +137,8 @@ body {
         border: none;
         outline: 0;
         resize: none; }
+      body .wrapper .left .push {
+        margin: 0 0 50px 30px; }
     body .wrapper .right {
       width: 72%;
       float: right; }

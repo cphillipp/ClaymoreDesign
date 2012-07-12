@@ -52,8 +52,8 @@ if(isset($_SESSION['message'])) {
 <body>
   <div class="wrapper">
     <header>
-      <h1><a href="index.php" title="Claymore Design Home Page">Claymore Design, Idaho Falls Web Design logo.</a></h1>
-      <nav><a href="index.php" title="Claymore Design Home Page">Home</a><a href="portfolio.php" title="Portfolio of Business Websites">Portfolio</a><a href="services.php" title="Website Services We Offer">Services</a><a href="about.php" title="About Claymore Design websites">About Us</a><a href="faqs.php" title="Frequently Asked Questions for Business Websites">FAQ'S</a><a href="contact.php" class="active" title="Claymore Design Business Website Contact Information">Contact</a></nav>
+      <h1><a href="http://www.claymoredesigns.com/index.php" title="Claymore Design Home Page">Claymore Design, Idaho Falls Web Design logo.</a></h1>
+      <nav><a href="http://www.claymoredesigns.com/index.php" title="Claymore Design Home Page">Home</a><a href="http://www.claymoredesigns.com/portfolio.php" title="Portfolio of Business Websites">Portfolio</a><a href="http://www.claymoredesigns.com/services.php" title="Website Services We Offer">Services</a><a href="http://www.claymoredesigns.com/about.php" title="About Claymore Design websites">About Us</a><a href="http://www.claymoredesigns.com/faqs.php" title="Frequently Asked Questions for Business Websites">FAQ'S</a><a href="http://www.claymoredesigns.com/contact.php" class="active" title="Claymore Design Business Website Contact Information">Contact</a></nav>
     </header>
     <div class="main">
       <div class="left">
@@ -72,6 +72,19 @@ if(isset($_SESSION['message'])) {
             <input type="submit" value="Submit Now" class="submit" />
           </fieldset>
         </form>
+        <div class="push">
+          <script type="text/javascript"><!--
+            google_ad_client = "ca-pub-6307068354307812";
+            /* index */
+            google_ad_slot = "7155290198";
+            google_ad_width = 250;
+            google_ad_height = 250;
+            //-->
+            </script>
+            <script type="text/javascript"
+            src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+          </script>
+        </div>
       </div>
       <div class="right">     
         <h2>Contact Us</h2>

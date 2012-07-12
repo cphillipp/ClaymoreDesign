@@ -28,12 +28,13 @@ body                    {background:#000000 url('../images/bg.jpeg') center top 
   		p 						    {padding:0 0 15px 30px; color:#A0ACAD; font-size:14px;}
       label             {padding:0 0 0 30px; color:#F9459E; display:block; position:relative; top:-15px;}
       input             {margin:0 0 15px 30px; padding:0 10px; width:230px; height:40px; color:#fff; font-size:20px; font-family:'Abel', arial, sans; display:block; background:#282828; border:none;
-        &.submit        {width:auto; height:28px; color:#E3E3E3; font-size:14px; cursor:pointer; -moz-border-radius:5px; border-radius:5px;
+        &.submit        {margin-bottom:30px; width:auto; height:28px; color:#E3E3E3; font-size:14px; cursor:pointer; -moz-border-radius:5px; border-radius:5px;
           &:hover       {background:#343434; color:#AFEEEE;}
         }
       }
       textarea          {overflow:auto; margin:0 0 15px 30px; padding:0 10px; width:230px; height:130px; color:#fff; font-size:20px; font-family:'Abel', arial, sans; display:block; background:#282828; border:none; outline:0; resize:none;}
-  	}    
+  	 .push              {margin:0 0 50px 30px;}
+    }    
   	.right 					    {width:72%; float:right;
       h2                {padding:0 30px 30px 0; color:#AFEEEE; font-size:26px; text-align:right; clear:both; text-transform:uppercase;}
       h3                {padding:0 0 10px; color:#E3E3E3; font-size:22px;}
