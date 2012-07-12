@@ -84,7 +84,7 @@ if(isset($_SESSION['message'])) {
           <p>208.390.7477 - (9am to 6pm)</p>
           <h3>Email</h3>
           <p>Use the form on the left to send us an email.</p>
-          <p>info@claymoredesigns.com</p>
+          <p>hello@claymoredesigns.com</p>
         </section>
       </div>
     </div>
