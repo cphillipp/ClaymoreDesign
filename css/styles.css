@@ -185,7 +185,7 @@ body {
               body .wrapper .right section ul li a:hover {
                 color: #F9459E; }
       body .wrapper .right ul {
-        padding: 0 0 30px 50px;
+        padding: 0 0 30px 0;
         overflow: hidden;
         min-width: 659px; }
         body .wrapper .right ul li {

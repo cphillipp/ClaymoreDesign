@@ -36,10 +36,10 @@ if(isset($_SESSION['message'])) {
 </head>
 <body>
   <div class="wrapper">
-    <header>
+    <!-- <header>
       <h1><a href="index.php">Claymore Design, Idaho Falls Web Design logo.</a></h1>
       <nav><a href="index.php" class="active">Home</a><a href="portfolio.php">Portfolio</a><a href="services.php">Services</a><a href="about.php">About Us</a><a href="faqs.php">FAQ'S</a><a href="contact.php">Contact</a></nav>
-    </header>
+    </header> -->
     <div class="main">
       <div class="left">
         <h2>have a question?</h2>
