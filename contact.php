@@ -13,13 +13,13 @@ if(isset($_SESSION['message'])) {
   <meta name="description" content="Our past web projects can be seen here. Each design is tailored for the individual needs of each business."/>
   <meta name="keywords" content="idaho falls web design, idaho web design, web design, idaho, idaho falls web design portfolio, seo idaho falls, idaho falls seo, idaho seo, seo idaho, web design, website design idaho falls, idaho falls website design, website design portfolio"/>
   <title>Contact Us | Idaho Falls Web Design Company | Claymore Design</title>
-  <link rel="shortcut icon" href="images/favicon.ico">
+  <link rel="shortcut icon" href="images/favicon.ico" />
   <link rel="stylesheet" href="css/styles.css" />
-  <link href='http://fonts.googleapis.com/css?family=Abel|Squada+One' rel='stylesheet' type='text/css'>
-  <script src="js/jquery1.7.2.min.js"></script>
-  <script src="js/placeholder.js"></script>
-  <script src="js/jquery.validate.min.js"></script>
-  <script src="js/forms.js"></script>
+  <link href='http://fonts.googleapis.com/css?family=Abel|Squada+One' rel='stylesheet' type='text/css' />
+  <script type="text/javascript" src="js/jquery1.7.2.min.js"></script>
+  <script type="text/javascript" src="js/placeholder.js"></script>
+  <script type="text/javascript" src="js/jquery.validate.min.js"></script>
+  <script type="text/javascript" src="js/forms.js"></script>
   <!--[if lt IE 9]>
   <script>
     document.createElement('header');

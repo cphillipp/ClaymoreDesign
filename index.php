@@ -13,13 +13,13 @@ if(isset($_SESSION['message'])) {
   <meta name="description" content="Getting a website in Idaho Falls is easy with Claymore Design. We are an Idaho Falls Web Design company building websites that are optimized &amp; easily found all over the web."/>
   <meta name="keywords" content="idaho falls web design, web design idaho falls, idaho web design, web design idaho, idaho falls seo, seo idaho falls, idaho seo, seo idaho, idaho falls marketing, marketing idaho falls, idaho marketing, marketing idaho, idaho falls website design, website design idaho falls, idaho website design, website design idaho"/>
   <title>Idaho Falls Web Design | Affordable websites for Idaho Falls businesses | Claymore Design</title>
-  <link rel="shortcut icon" href="images/favicon.ico">
+  <link rel="shortcut icon" href="images/favicon.ico" />
   <link rel="stylesheet" href="css/styles.css" />
-  <link href='http://fonts.googleapis.com/css?family=Abel|Squada+One' rel='stylesheet' type='text/css'>
-  <script src="js/jquery1.7.2.min.js"></script>
-  <script src="js/placeholder.js"></script>
-  <script src="js/jquery.validate.min.js"></script>
-  <script src="js/forms.js"></script>
+  <link href='http://fonts.googleapis.com/css?family=Abel|Squada+One' rel='stylesheet' type='text/css' />
+  <script type="text/javascript" src="js/jquery1.7.2.min.js"></script>
+  <script type="text/javascript" src="js/placeholder.js"></script>
+  <script type="text/javascript" src="js/jquery.validate.min.js"></script>
+  <script type="text/javascript" src="js/forms.js"></script>
   <!--[if lt IE 9]>
   <script>
     document.createElement('header');
