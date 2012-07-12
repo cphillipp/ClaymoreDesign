@@ -92,7 +92,7 @@ if(isset($_SESSION['message'])) {
           <h3>Clayton Phillipp</h3>
           <img src="images/me.png" alt="Idaho Falls Business Owner Clayton Phillipp" />
           <p>My name is Clayton Phillipp, and I live in Idaho Falls, Idaho. I met my wife at Brigham Young University, Idaho, where I graduated in 2009.</p>
-          <p>I started Claymore Design in Idaho Falls, Idaho, in order to pursue my passion for design and web development technologies. My goal is to create a home based web design, development, and marketing company that has very low overhead so that I can charge less then any other design company in the area.</p>
+          <p>I started Claymore Design in Idaho Falls, Idaho, in order to pursue my passion for design and web development technologies. My goal is to create a home based web design, web development, and online marketing company with very low overhead so that I can charge less then any other design company in the area.</p>
           <div class="line"></div>
           <h3>Past Experience</h3>
           <p>After graduation, I spent several years working in web development with several businesses located in Idaho Falls, Idaho, and Rexburg, Idaho. Here are some of the websites I have helped develop.</p>
