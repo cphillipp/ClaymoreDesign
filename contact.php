@@ -81,7 +81,7 @@ if(isset($_SESSION['message'])) {
     <div class="second">
       <ul>
         <li><span>Phone:</span> 208.390.7477</li>
-        <li><span>Email:</span> info@claymoredesigns.com</li>
+        <li><span>Email:</span> hello@claymoredesigns.com</li>
       </ul>
     </div>
   </footer>
