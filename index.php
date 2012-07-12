@@ -58,15 +58,56 @@ if(isset($_SESSION['message'])) {
           </fieldset>
         </form>
       </div>
-      <div class="right">        
-        <h2>Our Portfolio</h2>
+      <div class="right">
+        <ul>       
+          <li>
+            <div class="wrap">
+              <h3>Business Branding &amp;<br /> Print Services</h3>
+              <img src="images/blob3.png" alt="Local Idaho Falls business website" />
+              <p>Streamline your entire business</p>
+              <ul>
+                <li>Logo Design</li>
+                <li>Print Design</li>
+                <li>Business Cards</li>
+                <li>Fliers, Brochures, &#038; Post Cards</li>
+              </ul>
+              <a href="services.php" class="button">view our branding services</a>
+            </div>
+          </li>
+          <li>
+            <div class="wrap">
+              <h3>Online Marketing<br /> Services</h3>
+              <img src="images/blob2.png" alt="Local Idaho Falls business website" />
+              <p>Increase your online presence</p>
+              <ul>
+                <li>Social Media Marketing</li>
+                <li>Tracking &#038; Analytics</li>
+                <li>Email Marketing</li>
+                <li>Search Engine Optimization (SEO)</li>
+              </ul>
+              <a href="services.php" class="button">view our marketing services</a>
+            </div>
+          </li>
+          <li>
+            <div class="wrap">
+              <h3>Website Design &amp;<br /> Development</h3>
+              <img src="images/blob1.png" alt="Local Idaho Falls business website" />
+              <p>Market your business online</p>
+              <ul>
+                <li>Website Design</li>
+                <li>Website Development</li>
+                <li>Ecommerce Solutions</li>
+                <li>Content Management Systems (CMS)</li>
+              </ul>
+              <a href="services.php" class="button">view our design services</a>
+            </div>
+          </li>
+        </ul>
+        <h2>Some of our clients</h2>
         <ul>
           <li><a href="http://www.eastidaholaw.net" target="_blank"><img src="images/tswa3.png" alt="Local Idaho Falls business website" /><span>TSWA </span></a></li>
           <li><a href="http://www.rugboards.com" target="_blank"><img src="images/jensenrugboards3.png" alt="California based business website" /><span>Jensen Rugboards</span></a></li>
           <li><a href="http://www.yourlocallife.pagodabox.com" target="_blank"><img src="images/yll3.png" alt="Local Idaho Falls business website" /><span>Your Local Life</span></a></li>
-          <li><a href="http://www.paymentrix.com" target="_blank"><img src="images/paymentrix3.png" alt="Local Idaho Falls business website" /><span>Paymentrix</span></a></li>
-          <li><a href="http://www.sidahorentals.com" target="_blank"><img src="images/sir3.png" alt="Local Idaho Falls business website" /><span>Southern Idaho Rentals</span></a></li>
-          <li><a href="http://www.arnoldbeachhaven.com" target="_blank"><img src="images/abh3.png" alt="Local Oregon based business website" /><span>Arnold Beach Haven</span></a></li>
         </ul>
       </div>
     </div>
