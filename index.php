@@ -58,8 +58,7 @@ if(isset($_SESSION['message'])) {
         </form>
       </div>
       <div class="right">
-        <!-- <h2>THIS IS WHAT WE DO</h2> -->
-        <ul>       
+        <!-- <ul>       
           <li>
             <div class="wrap">
               <h3>Business Branding &amp;<br /> Print Services</h3>
@@ -102,7 +101,7 @@ if(isset($_SESSION['message'])) {
               <a href="services.php" class="button">view our design services</a>
             </div>
           </li>
-        </ul>
+        </ul> -->
         <h2>Some of our clients</h2>
         <ul>
           <li><a href="http://www.eastidaholaw.net" target="_blank"><img src="images/tswa3.png" alt="Local Idaho Falls business website" /><span>TSWA </span></a></li>
