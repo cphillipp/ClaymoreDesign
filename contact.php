@@ -41,7 +41,7 @@ if(isset($_SESSION['message'])) {
       <nav><a href="index.php">Home</a><a href="portfolio.php">Portfolio</a><a href="services.php">Services</a><a href="about.php">About Us</a><a href="faqs.php">FAQ'S</a><a href="contact.php" class="active">Contact</a></nav>
     </header>
     <div class="main">
-      <div class="left">
+      <!-- <div class="left">
         <h2>have a question?</h2>
         <form method="post" action="form.php" id="contact-form">
           <fieldset>
@@ -57,10 +57,10 @@ if(isset($_SESSION['message'])) {
             <input type="submit" value="Submit Now" class="submit" />
           </fieldset>
         </form>
-      </div>
+      </div> -->
       <div class="right">     
         <h2>Contact Us</h2>
-        <!-- <section>
+        <section>
           <h3>Looking for a quote?</h3>
           <p>Claymore Design is located in the heart of Idaho Falls. Contact us for possible solutions for your business.</p>
           <div class="line"></div>
@@ -70,7 +70,7 @@ if(isset($_SESSION['message'])) {
           <h3>Email</h3>
           <p>Use the form on the left to send us an email.</p>
           <p>info@claymoredesigns.com</p>
-        </section> -->
+        </section>
       </div>
     </div>
   </div>
