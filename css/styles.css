@@ -63,6 +63,7 @@ body {
           color: #AFEEEE;
           border-bottom: 1px dashed #AFEEEE; }
   body .wrapper {
+    width: 100%;
     min-width: 1000px;
     min-height: 100%;
     overflow: hidden; }

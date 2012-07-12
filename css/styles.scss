@@ -18,7 +18,7 @@ body                    {background:#000000 url('../images/bg.jpeg') center top 
   		}   
   	}    
   }   
-  .wrapper 					    {min-width:1000px; min-height:100%; overflow:hidden;
+  .wrapper 					    {width:100%; min-width:1000px; min-height:100%; overflow:hidden;
     .main               {overflow:auto; padding:0 0 80px;}
   	.left 					    {width:28%; float:left;
   	 	h2 						    {padding:0 0 30px 30px; color:#AFEEEE; font-size:26px; text-transform:uppercase;}
