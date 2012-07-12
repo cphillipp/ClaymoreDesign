@@ -108,9 +108,6 @@ if(isset($_SESSION['message'])) {
           <li><a href="http://www.eastidaholaw.net" target="_blank"><img src="images/tswa3.png" alt="Local Idaho Falls business website" /><span>TSWA </span></a></li>
           <li><a href="http://www.rugboards.com" target="_blank"><img src="images/jensenrugboards3.png" alt="California based business website" /><span>Jensen Rugboards</span></a></li>
           <li><a href="http://www.yourlocallife.pagodabox.com" target="_blank"><img src="images/yll3.png" alt="Local Idaho Falls business website" /><span>Your Local Life</span></a></li>
-          <!-- <li><a href="#"><img src="images/paymentrix.png" alt="Local Idaho Falls business website" /><span>Paymentrix</span></a></li>
-          <li><a href="#"><img src="images/sir.png" alt="Local Idaho Falls business website" /><span>Southern Idaho Rentals</span></a></li>
-          <li><a href="#"><img src="images/abh.png" alt="Local Oregon based business website" /><span>Arnold Beach Haven</span></a></li> -->
         </ul>
       </div>
     </div>
