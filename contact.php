@@ -60,17 +60,17 @@ if(isset($_SESSION['message'])) {
       </div>
       <div class="right">     
         <h2>Contact Us</h2>
-        <section>
+        <!-- <section>
           <h3>Looking for a quote?</h3>
-<!--           <p>Claymore Design is located in the heart of Idaho Falls. Contact us for possible solutions for your business.</p>
+          <p>Claymore Design is located in the heart of Idaho Falls. Contact us for possible solutions for your business.</p>
           <div class="line"></div>
           <h3>Phone</h3>
           <p>Call us for a free consultation and website review.</p>
           <p>208.390.7477 - (9am to 6pm)</p>
           <h3>Email</h3>
           <p>Use the form on the left to send us an email.</p>
-          <p>info@claymoredesigns.com</p> -->
-        </section>
+          <p>info@claymoredesigns.com</p>
+        </section> -->
       </div>
     </div>
   </div>
