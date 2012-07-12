@@ -27,40 +27,47 @@ if(isset($_SESSION['message'])) {
     document.createElement('footer');
   </script>
   <![endif]-->
+  <!--[if !IE 7]>
+    <style type="text/css">
+      .wrapper {display:table;height:100%}
+    </style>
+  <![endif]-->
 </head>
 <body>
-  <header>
-    <h1><a href="index.php">Claymore Design, Idaho Falls Web Design logo</a></h1>
-    <nav><a href="portfolio.php" class="active">Portfolio</a><a href="services.php">Services</a><a href="about.php">About Us</a><a href="faqs.php">FAQ'S</a><a href="contact.php">Contact</a></nav>
-  </header>
   <div class="wrapper">
-    <div class="left">
-      <h2>have a question?</h2>
-      <form method="post" action="form.php" id="contact-form">
-        <fieldset>
-          <input name="name" type="text" placeholder="Name" class="required" minlength="5" />
-          <input name="email" type="text" placeholder="Email" class="required email" />
-          <input name="phone" type="tel" placeholder="Telephone" class="required number" minlength="7" />
-          <textarea name="message" placeholder="Message" class="required" minlength="10"></textarea>
-          <?php
-            if(isset($display_message)) {
-                echo "<p name='bottom' class='thank-you'>" . $display_message . "</p>";
-            }
-          ?>
-          <input type="submit" value="Submit Now" class="submit" />
-        </fieldset>
-      </form>
-    </div>
-    <div class="right">        
-      <h2>Our Portfolio</h2>
-      <ul>
-        <li><a href="http://www.eastidaholaw.net" target="_blank"><img src="images/tswa3.png" alt="Local Idaho Falls business website" /><span>TSWA </span></a></li>
-        <li><a href="http://www.rugboards.com" target="_blank"><img src="images/jensenrugboards3.png" alt="California based business website" /><span>Jensen Rugboards</span></a></li>
-        <li><a href="http://www.yourlocallife.pagodabox.com" target="_blank"><img src="images/yll3.png" alt="Local Idaho Falls business website" /><span>Your Local Life</span></a></li>
-        <li><a href="http://www.paymentrix.com" target="_blank"><img src="images/paymentrix3.png" alt="Local Idaho Falls business website" /><span>Paymentrix</span></a></li>
-        <li><a href="http://www.sidahorentals.com" target="_blank"><img src="images/sir3.png" alt="Local Idaho Falls business website" /><span>Southern Idaho Rentals</span></a></li>
-        <li><a href="http://www.arnoldbeachhaven.com" target="_blank"><img src="images/abh3.png" alt="Local Oregon based business website" /><span>Arnold Beach Haven</span></a></li>
-      </ul>
+    <header>
+      <h1><a href="index.php">Claymore Design, Idaho Falls Web Design logo</a></h1>
+      <nav><a href="portfolio.php" class="active">Portfolio</a><a href="services.php">Services</a><a href="about.php">About Us</a><a href="faqs.php">FAQ'S</a><a href="contact.php">Contact</a></nav>
+    </header>
+    <div class="main">
+      <div class="left">
+        <h2>have a question?</h2>
+        <form method="post" action="form.php" id="contact-form">
+          <fieldset>
+            <input name="name" type="text" placeholder="Name" class="required" minlength="5" />
+            <input name="email" type="text" placeholder="Email" class="required email" />
+            <input name="phone" type="tel" placeholder="Telephone" class="required number" minlength="7" />
+            <textarea name="message" placeholder="Message" class="required" minlength="10"></textarea>
+            <?php
+              if(isset($display_message)) {
+                  echo "<p name='bottom' class='thank-you'>" . $display_message . "</p>";
+              }
+            ?>
+            <input type="submit" value="Submit Now" class="submit" />
+          </fieldset>
+        </form>
+      </div>
+      <div class="right">        
+        <h2>Our Portfolio</h2>
+        <ul>
+          <li><a href="http://www.eastidaholaw.net" target="_blank"><img src="images/tswa3.png" alt="Local Idaho Falls business website" /><span>TSWA </span></a></li>
+          <li><a href="http://www.rugboards.com" target="_blank"><img src="images/jensenrugboards3.png" alt="California based business website" /><span>Jensen Rugboards</span></a></li>
+          <li><a href="http://www.yourlocallife.pagodabox.com" target="_blank"><img src="images/yll3.png" alt="Local Idaho Falls business website" /><span>Your Local Life</span></a></li>
+          <li><a href="http://www.paymentrix.com" target="_blank"><img src="images/paymentrix3.png" alt="Local Idaho Falls business website" /><span>Paymentrix</span></a></li>
+          <li><a href="http://www.sidahorentals.com" target="_blank"><img src="images/sir3.png" alt="Local Idaho Falls business website" /><span>Southern Idaho Rentals</span></a></li>
+          <li><a href="http://www.arnoldbeachhaven.com" target="_blank"><img src="images/abh3.png" alt="Local Oregon based business website" /><span>Arnold Beach Haven</span></a></li>
+        </ul>
+      </div>
     </div>
   </div>
   <footer>

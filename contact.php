@@ -28,46 +28,53 @@ if(isset($_SESSION['message'])) {
     document.createElement('footer');
   </script>
   <![endif]-->
+  <!--[if !IE 7]>
+    <style type="text/css">
+      .wrapper {display:table;height:100%}
+    </style>
+  <![endif]-->
 </head>
 <body>
-  <header>
-    <h1><a href="index.php">Claymore Design, Idaho Falls Web Design logo</a></h1>
-    <nav><a href="portfolio.php">Portfolio</a><a href="services.php">Services</a><a href="about.php">About Us</a><a href="faqs.php">FAQ'S</a><a href="contact.php" class="active">Contact</a></nav>
-  </header>
   <div class="wrapper">
-    <div class="left">
-      <h2>have a question?</h2>
-      <form method="post" action="form.php" id="contact-form">
-        <fieldset>
-          <input name="name" type="text" placeholder="Name" class="required" minlength="5" />
-          <input name="email" type="text" placeholder="Email" class="required email" />
-          <input name="phone" type="tel" placeholder="Telephone" class="required number" minlength="7" />
-          <textarea name="message" placeholder="Message" class="required" minlength="10"></textarea>
-          <?php
-            if(isset($display_message)) {
-                echo "<p name='bottom' class='thank-you'>" . $display_message . "</p>";
-            }
-          ?>
-          <input type="submit" value="Submit Now" class="submit" />
-        </fieldset>
-      </form>
-    </div>
-    <div class="right">        
-      <h2>Contact Us</h2>
-      <section>
-        <h3>Looking for a quote?</h3>
-        <p>Claymore Design is located in the heart of Idaho Falls. Contact us for possible solutions for your business.</p>
-        <div class="line"></div>
-        <h3>Phone</h3>
-        <p>Call us for a free consultation and website review.</p>
-        <p>208.390.7477 - (9am to 6pm)</p>
-        <h3>Email</h3>
-        <p>Use the form on the left to send us an email.</p>
-        <p>info@claymoredesigns.com</p>
-      </section>
+    <header>
+      <h1><a href="index.php">Claymore Design, Idaho Falls Web Design logo</a></h1>
+      <nav><a href="portfolio.php">Portfolio</a><a href="services.php">Services</a><a href="about.php">About Us</a><a href="faqs.php">FAQ'S</a><a href="contact.php" class="active">Contact</a></nav>
+    </header>
+    <div class="main">
+      <div class="left">
+        <h2>have a question?</h2>
+        <form method="post" action="form.php" id="contact-form">
+          <fieldset>
+            <input name="name" type="text" placeholder="Name" class="required" minlength="5" />
+            <input name="email" type="text" placeholder="Email" class="required email" />
+            <input name="phone" type="tel" placeholder="Telephone" class="required number" minlength="7" />
+            <textarea name="message" placeholder="Message" class="required" minlength="10"></textarea>
+            <?php
+              if(isset($display_message)) {
+                  echo "<p name='bottom' class='thank-you'>" . $display_message . "</p>";
+              }
+            ?>
+            <input type="submit" value="Submit Now" class="submit" />
+          </fieldset>
+        </form>
+      </div>
+      <div class="right">        
+        <h2>Contact Us</h2>
+        <section>
+          <h3>Looking for a quote?</h3>
+          <p>Claymore Design is located in the heart of Idaho Falls. Contact us for possible solutions for your business.</p>
+          <div class="line"></div>
+          <h3>Phone</h3>
+          <p>Call us for a free consultation and website review.</p>
+          <p>208.390.7477 - (9am to 6pm)</p>
+          <h3>Email</h3>
+          <p>Use the form on the left to send us an email.</p>
+          <p>info@claymoredesigns.com</p>
+        </section>
+      </div>
     </div>
   </div>
-  <footer class="fixed">
+  <footer>
     <div class="first">
       <p>&copy; Claymore Design 2012 All Rights Reserved</p>
     </div>
