@@ -188,12 +188,14 @@ body {
         min-width: 659px; }
         body .wrapper .right ul li {
           margin: 0 30px 30px 0;
-          width: 29%;
+          width: 28%;
           display: block;
           float: right; }
           body .wrapper .right ul li .wrap {
             width: 200px;
             float: right; }
+            body .wrapper .right ul li .wrap img {
+              margin: 0 0 10px; }
           body .wrapper .right ul li p {
             padding: 0 0 10px;
             color: #A0ACAD; }

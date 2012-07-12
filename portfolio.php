@@ -37,7 +37,7 @@ if(isset($_SESSION['message'])) {
   <div class="wrapper">
     <header>
       <h1><a href="index.php">Claymore Design, Idaho Falls Web Design logo</a></h1>
-      <nav><a href="portfolio.php" class="active">Portfolio</a><a href="services.php">Services</a><a href="about.php">About Us</a><a href="faqs.php">FAQ'S</a><a href="contact.php">Contact</a></nav>
+      <nav><a href="index.php">Home</a><a href="portfolio.php" class="active">Portfolio</a><a href="services.php">Services</a><a href="about.php">About Us</a><a href="faqs.php">FAQ'S</a><a href="contact.php">Contact</a></nav>
     </header>
     <div class="main">
       <div class="left">

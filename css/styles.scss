@@ -51,8 +51,10 @@ body                    {background:#000000 url('../images/bg.jpeg') center top 
         }
       }
       ul                {padding:0 0 30px 50px; overflow:hidden; min-width:659px;
-        li              {margin:0 30px 30px 0; width:29%; display:block; float:right;
-          .wrap         {width:200px; float:right;}
+        li              {margin:0 30px 30px 0; width:28%; display:block; float:right;
+          .wrap         {width:200px; float:right;
+            img         {margin:0 0 10px;}
+          }
           p             {padding:0 0 10px; color:#A0ACAD;}
           a             {width:200px; display:block; float:right; text-decoration:none;
             span        {width:200px; display:block; line-height:50px; color:#818692; text-align:center; background:#191A1F;}

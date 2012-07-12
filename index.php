@@ -37,7 +37,7 @@ if(isset($_SESSION['message'])) {
   <div class="wrapper">
     <header>
       <h1><a href="index.php">Claymore Design, Idaho Falls Web Design logo.</a></h1>
-      <nav><a href="portfolio.php">Portfolio</a><a href="services.php">Services</a><a href="about.php">About Us</a><a href="faqs.php">FAQ'S</a><a href="contact.php">Contact</a></nav>
+      <nav><a href="index.php">Home</a><a href="portfolio.php">Portfolio</a><a href="services.php">Services</a><a href="about.php">About Us</a><a href="faqs.php">FAQ'S</a><a href="contact.php">Contact</a></nav>
     </header>
     <div class="main">
       <div class="left">
@@ -47,7 +47,7 @@ if(isset($_SESSION['message'])) {
             <input name="name" type="text" placeholder="Name" class="required" minlength="5" />
             <input name="email" type="text" placeholder="Email" class="required email" />
             <input name="phone" type="tel" placeholder="Telephone" class="required number" minlength="7" />
-            <textarea name="message" class="required" minlength="10"></textarea>
+            <textarea name="message" placeholder="Message" class="required" minlength="10"></textarea>
             <?php
               if(isset($display_message)) {
                   echo "<p name='bottom' class='thank-you'>" . $display_message . "</p>";
@@ -58,7 +58,7 @@ if(isset($_SESSION['message'])) {
         </form>
       </div>
       <div class="right">
-        <h2>THIS IS WHAT WE DO</h2>
+        <!-- <h2>THIS IS WHAT WE DO</h2> -->
         <ul>       
           <li>
             <div class="wrap">
