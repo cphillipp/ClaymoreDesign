@@ -58,8 +58,8 @@ if(isset($_SESSION['message'])) {
           </fieldset>
         </form>
       </div>
-      <div class="right">
-        <h2>Some of our clients</h2>
+      <div class="right">        
+        <h2>Our Portfolio</h2>
         <ul>
           <li><a href="http://www.eastidaholaw.net" target="_blank"><img src="images/tswa3.png" alt="Local Idaho Falls business website" /><span>TSWA </span></a></li>
           <li><a href="http://www.rugboards.com" target="_blank"><img src="images/jensenrugboards3.png" alt="California based business website" /><span>Jensen Rugboards</span></a></li>
