@@ -19,7 +19,7 @@ body                    {background:#000000 url('../images/bg.jpeg') center top 
   	}    
   }   
   .wrapper 					    {min-width:1000px; min-height:100%; overflow:hidden;
-    .main               {min-width:1000px; overflow:auto; padding:0 0 80px;}
+    .main               {width:auto; min-width:1000px; overflow:auto; padding:0 0 80px;}
   	.left 					    {width:28%; float:left;
   	 	h2 						    {padding:0 0 30px 30px; color:#AFEEEE; font-size:26px; text-transform:uppercase;}
   		p 						    {padding:0 0 15px 30px; color:#A0ACAD; font-size:14px;}

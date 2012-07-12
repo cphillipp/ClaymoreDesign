@@ -67,6 +67,7 @@ body {
     min-height: 100%;
     overflow: hidden; }
     body .wrapper .main {
+      width: auto;
       min-width: 1000px;
       overflow: auto;
       padding: 0 0 80px; }
