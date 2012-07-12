@@ -212,9 +212,11 @@ body {
               height: auto;
               float: none;
               text-decoration: none;
-              color: #fff; }
+              color: #fff;
+              background: none; }
               body .wrapper .right section ul li a:hover {
-                color: #F9459E; }
+                color: #F9459E;
+                background: none; }
       body .wrapper .right ul {
         padding: 0 0 30px 0;
         overflow: hidden;

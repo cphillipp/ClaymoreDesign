@@ -51,8 +51,8 @@ body                    {background:#000000 url('../images/bg.jpeg') center top 
         .line           {margin:10px 0 20px; width:auto; height:1px; border-bottom:1px dashed #AFEEEE; clear:both;}
         ul              {float:none; padding:0 0 15px;
           li            {margin:0; padding:0 0 8px 24px; width:176px; float:none; color:#A0ACAD; line-height:1.3em; background:url(../images/marker-2.png) 1px 5px no-repeat;
-            a           {width:auto; height:auto; float:none; text-decoration:none; color:#fff;
-              &:hover   {color:#F9459E;}
+            a           {width:auto; height:auto; float:none; text-decoration:none; color:#fff; background:none;
+              &:hover   {color:#F9459E; background:none;}
             }
           }
         }
