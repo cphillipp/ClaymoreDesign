@@ -59,17 +59,24 @@ if(isset($_SESSION['message'])) {
         </form>
       </div>
       <div class="right">        
-        <h2>Contact Us</h2>
+        <h2>Who We Are</h2>
         <section>
-          <h3>Looking for a quote?</h3>
-          <p>Claymore Design is located in the heart of Idaho Falls. Contact us for possible solutions for your business.</p>
+          <h3>About Claymore Design</h3>
+          <p>Our highly Trained & Educated team comes equipped with extensive knowledge in Graphics, Layout, Design, and is backed by years of experience in Internet Marketing and Solutions.</p>
+          <p>Claymore Design can help Brand &amp; Establish your company from the ground up. We can create websites, logos, color-schemes, and graphics that will serve to give your website an overall more marketable identity.</p>
           <div class="line"></div>
-          <h3>Phone</h3>
-          <p>Call us for a free consultation and website review.</p>
-          <p>208.390.7477 - (9am to 6pm)</p>
-          <h3>Email</h3>
-          <p>Use the form on the left to send us an email.</p>
-          <p>info@claymoredesigns.com</p>
+          <h3>Past Experience</h3>
+          <p>We have spent years culminating our talents with strong passion. Here is a list of past work experience that was used to develop our skills.</p>
+          <ul>
+            <li><a href="http://www.zumiez.com/" target="_blank">www.zumiez.com</a></li>
+            <li><a href="http://www.allenbrothers.com/" target="_blank">www.allenbrothers.com</a></li>
+            <li><a href="https://www.pagodabox.com/" target="_blank">www.pagodabox.com</a></li>
+            <li><a href="http://www.redmarblesteaks.com/" target="_blank">www.redmarblesteaks.com/</a></li>
+            <li><a href="http://www.rejuvenation.com/" target="_blank">www.rejuvenation.com/</a></li>
+            <li>AND MANY MORE!</li>
+          </ul>
+          <h3>Superior Support</h3>
+          <p>Perhaps most importantly, we want to emphasize our commitment to superior customer service. We realize that the backbone to any successful business is not only understanding what the customer wants, but correctly executing their demands in an orderly fashion. In this business it is especially important because a design needs to be an exact extension of that company or individual. We want you to understand where we are coming from and we will always attempt to answer any questions that you may have to the best of our abilities. By understanding our clients we have been able to not only meet their wishes, we’ve been able to exceed their expectations. Which is why we work with you step-by-step, no changes, or updates are made until you are completely aware and in agreeance. This ensures a quicker turnaround time and a better experience our company and your’s.</p>
         </section>
       </div>
     </div>
