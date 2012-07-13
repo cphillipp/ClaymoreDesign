@@ -10,7 +10,7 @@ if(isset($_SESSION['message'])) {
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-  <meta name="description" content="Our past web projects can be seen here. Each design is tailored for the individual needs of each business."/>
+  <meta name="description" content="Read more about Claymore Design and the owner of our business here."/>
   <meta name="keywords" content="idaho falls web design, idaho web design, web design, idaho, idaho falls web design portfolio, seo idaho falls, idaho falls seo, idaho seo, seo idaho, web design, website design idaho falls, idaho falls website design, website design portfolio"/>
   <title>About Us | About our Idaho Falls Web Design Company | Claymore Design</title>
   <link rel="shortcut icon" href="images/favicon.ico" />

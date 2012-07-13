@@ -328,6 +328,13 @@ body {
               color: #A0ACAD;
               line-height: 1.3em;
               background: url(../images/marker-2.png) 1px 5px no-repeat; }
+    body .wrapper .error h2 {
+      color: #ffffff;
+      font-size: 130px;
+      text-align: center; }
+    body .wrapper .error p {
+      color: #ffffff;
+      text-align: center; }
   body footer {
     width: 100%;
     min-width: 1000px;

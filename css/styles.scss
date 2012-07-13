@@ -81,7 +81,11 @@ body                    {background:#000000 url('../images/bg.jpeg') center top 
           }   
         }   
       }   
-    }   
+    }
+    .error              {
+      h2                {color:#ffffff; font-size:130px; text-align:center;}
+      p                 {color:#ffffff; text-align:center;}
+    }
   }
   footer                {width:100%; min-width:1000px; height:80px; position:relative; margin-top:-80px; clear:both;
     .first              {width:28%; height:80px; background:#AFEEEE; border-right:31px solid #000; position:absolute; bottom:0px; left:0px;
