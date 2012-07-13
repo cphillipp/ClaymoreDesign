@@ -106,7 +106,7 @@ if(isset($_SESSION['message'])) {
           <li>
             <div class="wrap">
               <h3>Online Marketing<br /> Services</h3>
-              <img src="images/blob5.png" alt="Idaho Falls Business Website Marketing" />
+              <img src="images/blob2.png" alt="Idaho Falls Business Website Marketing" />
               <p>Increase your online presence</p>
               <ul>
                 <li>Social Media Marketing</li>
@@ -120,7 +120,7 @@ if(isset($_SESSION['message'])) {
           <li>
             <div class="wrap">
               <h3>Website Design &amp;<br /> Development</h3>
-              <img src="images/blob4.png" alt="Idaho Falls Business Website Design and Development" />
+              <img src="images/blob1.png" alt="Idaho Falls Business Website Design and Development" />
               <p>Market your business online</p>
               <ul>
                 <li>Website Design</li>

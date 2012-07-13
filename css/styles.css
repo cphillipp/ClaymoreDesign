@@ -68,7 +68,15 @@ body {
         padding: 0 0 5px;
         color: #FFFFE0;
         text-decoration: none;
-        text-transform: uppercase; }
+        text-transform: uppercase;
+        -moz-transition-property: color;
+        -moz-transition-duration: 400ms;
+        -webkit-transition-property: color;
+        -webkit-transition-duration: 400ms;
+        -o-transition-property: color;
+        -o-transition-duration: 400ms;
+        transition-property: color;
+        transition-duration: 400ms; }
         body header nav a:hover {
           color: #AFEEEE; }
         body header nav a.active {

@@ -15,7 +15,7 @@ body                    {background:#000000 url('../images/bg.jpeg') center top 
   		a 						    {width:200px; height:53px; display:block; text-indent:-100%; font-size:0px; line-height:0px; background:url('../images/logo.png');}
   	}    
   	nav 						    {position:absolute; top:40%; right:20px;
-  		a 						    {margin:0 15px; padding:0 0 5px;color:#FFFFE0; text-decoration:none; text-transform:uppercase;
+  		a 						    {margin:0 15px; padding:0 0 5px; color:#FFFFE0; text-decoration:none; text-transform:uppercase; -moz-transition-property:color; -moz-transition-duration:400ms; -webkit-transition-property:color; -webkit-transition-duration:400ms; -o-transition-property:color; -o-transition-duration:400ms; transition-property:color; transition-duration:400ms;
   			&:hover 		    {color:#AFEEEE;}
         &.active        {color:#AFEEEE; border-bottom:1px dashed #AFEEEE;}
   		}   
