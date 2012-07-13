@@ -27,12 +27,12 @@ body                    {background:#000000 url('../images/bg.jpeg') center top 
   	 	h2 						    {padding:0 0 30px 30px; color:#AFEEEE; font-size:26px; text-transform:uppercase;}
   		p 						    {padding:0 0 15px 30px; color:#A0ACAD; font-size:14px;}
       label             {padding:0 0 0 30px; color:#F9459E; display:block; position:relative; top:-15px;}
-      input             {opacity:0.7; filter:alpha(opacity=70); -moz-opacity:0.7; margin:0 0 15px 30px; padding:0 10px; width:230px; height:40px; color:#fff; font-size:20px; font-family:'Abel', arial, sans; display:block; background:#282828; border:none;
+      input             {opacity:0.6; filter:alpha(opacity=60); -moz-opacity:0.6; margin:0 0 15px 30px; padding:0 10px; width:230px; height:40px; color:#fff; font-size:20px; font-family:'Abel', arial, sans; display:block; background:#282828; border:none;
         &.submit        {margin-bottom:30px; width:auto; height:28px; color:#E3E3E3; font-size:14px; cursor:pointer; -moz-border-radius:5px; border-radius:5px; -moz-transition-property:background; -moz-transition-duration:400ms; -webkit-transition-property:background; -webkit-transition-duration:400ms; -o-transition-property:background; -o-transition-duration:400ms; transition-property:background; transition-duration:400ms;
           &:hover       {background:#343434; color:#AFEEEE;}
         }
       }
-      textarea          {opacity:0.7; filter:alpha(opacity=70); -moz-opacity:0.7; overflow:auto; margin:0 0 15px 30px; padding:0 10px; width:230px; height:130px; color:#fff; font-size:20px; font-family:'Abel', arial, sans; display:block; background:#282828; border:none; outline:0; resize:none;}
+      textarea          {opacity:0.6; filter:alpha(opacity=60); -moz-opacity:0.6; overflow:auto; margin:0 0 15px 30px; padding:0 10px; width:230px; height:130px; color:#fff; font-size:20px; font-family:'Abel', arial, sans; display:block; background:#282828; border:none; outline:0; resize:none;}
   	 .push              {margin:0 0 50px 30px;}
     }    
   	.right 					    {width:72%; float:right;
@@ -42,7 +42,7 @@ body                    {background:#000000 url('../images/bg.jpeg') center top 
         span            {color:#888888;}
       }
       section           {margin:0 30px 50px; padding:20px; min-width:620px; overflow:hidden; position:relative;
-        .back           {opacity:0.7; filter:alpha(opacity=70); -moz-opacity:0.7; z-index:-1; width:100%; height:2000px; background:#282828; position:absolute; top:0px; left:0px;}
+        .back           {opacity:0.6; filter:alpha(opacity=60); -moz-opacity:0.6; z-index:-1; width:100%; height:2000px; background:#282828; position:absolute; top:0px; left:0px;}
         h3              {color:#AFEEEE;}
         p               {padding:0 0 10px; color:#E3E3E3;
           span          {color:#a5d53a;}
