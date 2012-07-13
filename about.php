@@ -89,6 +89,7 @@ if(isset($_SESSION['message'])) {
       <div class="right">        
         <h2>Who We Are</h2>
         <section>
+          <div class="back"></div>
           <h3>Clayton Phillipp</h3>
           <img src="images/me.png" alt="Idaho Falls Business Owner Clayton Phillipp" />
           <p>My name is Clayton Phillipp, and I live in Idaho Falls, Idaho. I met my wife at Brigham Young University, Idaho, where I graduated in 2009.</p>
