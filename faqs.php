@@ -89,6 +89,7 @@ if(isset($_SESSION['message'])) {
       <div class="right">        
         <h2>Frequently Asked Questions</h2>
         <section>
+          <div class="back"></div>
           <h3>Q: Will we need to have a meeting in connection with the website design?</h3>
           <p><span>A:</span> In the majority of cases a meeting isn’t necessary and most of our websites are generally completed with contact via email and telephone only. We place suggested website designs onto the Internet in a private place where only yourselves and us can view the content. We then liaise with you regularly to discuss the web designs in order that the website design and functionality is exactly as you wish.</p>
           <div class="line"></div>

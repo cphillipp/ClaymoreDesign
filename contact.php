@@ -89,6 +89,7 @@ if(isset($_SESSION['message'])) {
       <div class="right">     
         <h2>Contact Us</h2>
         <section>
+          <div class="back"></div>
           <h3>How To Reach Us</h3>
           <p>Claymore Design is located in the heart of Idaho Falls.<!--  Contact us for possible solutions for your business. --></p>
           <p>In order to ensure the greatest outcome for your business we take great care throughout the development process. We start with an assessment about your business goals in order to understand your specific needs or wants.</p>

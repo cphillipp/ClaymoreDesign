@@ -89,6 +89,7 @@ if(isset($_SESSION['message'])) {
       <div class="right">        
         <h2>What We Do</h2>
         <section>
+          <div class="back"></div>
           <h3>Our Services</h3>
           <p>With our extensive knowledge in Design and Internet Marketing Solutions, Claymore Design can help you Brand &amp; Establish your company.</p> 
           <p>We create websites, logos, color-schemes, and graphics that will improve your Business &amp; Website Identity. We can teach you how to understand the web in order to get your business to the top of all major search engines.</p>
