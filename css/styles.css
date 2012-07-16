@@ -89,7 +89,7 @@ body {
     overflow: hidden; }
     body .wrapper .main {
       overflow: auto;
-      padding: 0 0 80px; }
+      padding: 0 0 40px; }
     body .wrapper .left {
       width: 28%;
       float: left; }
@@ -338,13 +338,13 @@ body {
   body footer {
     width: 100%;
     min-width: 1000px;
-    height: 80px;
+    height: 40px;
     position: relative;
-    margin-top: -80px;
+    margin-top: -40px;
     clear: both; }
     body footer .first {
       width: 28%;
-      height: 80px;
+      height: 40px;
       background: #AFEEEE;
       border-right: 31px solid #000;
       position: absolute;
@@ -354,14 +354,14 @@ body {
         padding: 0 0 0 30px;
         color: #525355;
         font-size: 14px;
-        line-height: 80px; }
+        line-height: 40px; }
     body footer .second {
       width: 72%;
-      height: 80px;
+      height: 40px;
       float: right;
       background: #F9459E; }
       body footer .second ul {
-        padding: 12px 0 0;
+        padding: 0;
         list-style: none;
         overflow: hidden; }
         body footer .second ul li {
@@ -369,10 +369,12 @@ body {
           float: right;
           color: #fff;
           font-size: 14px;
+          line-height: 34px;
           text-transform: uppercase;
           text-align: right; }
         body footer .second ul span {
-          padding: 0 0 5px;
+          padding: 0 10px 0 0;
           font-size: 20px;
           color: #000;
-          display: block; }
+          position: relative;
+          top: 2px; }

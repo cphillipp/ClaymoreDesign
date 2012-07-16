@@ -22,7 +22,7 @@ body                    {background:#000000 url('../images/bg.jpeg') center top 
   	}    
   }   
   .wrapper 					    {width:100%; min-width:1000px; min-height:100%; overflow:hidden;
-    .main               {overflow:auto; padding:0 0 80px;}
+    .main               {overflow:auto; padding:0 0 40px;}
   	.left 					    {width:28%; float:left;
   	 	h2 						    {padding:0 0 30px 30px; color:#AFEEEE; font-size:26px; text-transform:uppercase;}
   		p 						    {padding:0 0 15px 30px; color:#A0ACAD; font-size:14px;}
@@ -87,14 +87,14 @@ body                    {background:#000000 url('../images/bg.jpeg') center top 
       p                 {color:#ffffff; text-align:center;}
     }
   }
-  footer                {width:100%; min-width:1000px; height:80px; position:relative; margin-top:-80px; clear:both;
-    .first              {width:28%; height:80px; background:#AFEEEE; border-right:31px solid #000; position:absolute; bottom:0px; left:0px;
-      p                 {padding:0 0 0 30px; color:#525355; font-size:14px; line-height:80px;}
+  footer                {width:100%; min-width:1000px; height:40px; position:relative; margin-top:-40px; clear:both;
+    .first              {width:28%; height:40px; background:#AFEEEE; border-right:31px solid #000; position:absolute; bottom:0px; left:0px;
+      p                 {padding:0 0 0 30px; color:#525355; font-size:14px; line-height:40px;}
     }   
-    .second             {width:72%; height:80px; float:right; background:#F9459E;
-      ul                {padding:12px 0 0; list-style:none; overflow:hidden;
-        li              {padding:0 30px; float:right; color:#fff; font-size:14px; text-transform:uppercase; text-align:right;}
-        span            {padding:0 0 5px; font-size:20px; color:#000; display:block;}
+    .second             {width:72%; height:40px; float:right; background:#F9459E;
+      ul                {padding:0; list-style:none; overflow:hidden;
+        li              {padding:0 30px; float:right; color:#fff; font-size:14px; line-height:34px; text-transform:uppercase; text-align:right;}
+        span            {padding:0 10px 0 0; font-size:20px; color:#000; position:relative; top:2px;}
       }
     }
   }
