@@ -92,7 +92,7 @@ if(isset($_SESSION['message'])) {
           <li>
             <div class="wrap">
               <h3>Business Branding &amp;<br /> Print Services</h3>
-              <img src="images/blob3.png" alt="Idaho Falls Business Website Branding" />
+              <img src="images/brand.png" alt="Idaho Falls Business Website Branding" />
               <p>Streamline your entire business</p>
               <ul>
                 <li>Logo Design</li>
@@ -106,7 +106,7 @@ if(isset($_SESSION['message'])) {
           <li>
             <div class="wrap">
               <h3>Online Marketing<br /> Services</h3>
-              <img src="images/blob2.png" alt="Idaho Falls Business Website Marketing" />
+              <img src="images/market.png" alt="Idaho Falls Business Website Marketing" />
               <p>Increase your online presence</p>
               <ul>
                 <li>Social Media Marketing</li>
@@ -120,7 +120,7 @@ if(isset($_SESSION['message'])) {
           <li>
             <div class="wrap">
               <h3>Website Design &amp;<br /> Development</h3>
-              <img src="images/blob1.png" alt="Idaho Falls Business Website Design and Development" />
+              <img src="images/design.png" alt="Idaho Falls Business Website Design and Development" />
               <p>Market your business online</p>
               <ul>
                 <li>Website Design</li>
