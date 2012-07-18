@@ -93,7 +93,7 @@ if(isset($_SESSION['message'])) {
           <li><a href="http://www.yourlocallife.pagodabox.com" target="_blank" title="Idaho Falls Business Website"><img src="images/yll3.png" alt="Local Idaho Falls business website for Your Local Life" /><span>Your Local Life</span></a></li>
           <li><a href="http://www.paymentrix.com" target="_blank" title="Idaho Falls Business Website"><img src="images/paymentrix3.png" alt="Local Rexburg Idaho business website for Paymentrix" /><span>Paymentrix</span></a></li>
           <li><a href="http://www.sidahorentals.com" target="_blank" title="Idaho Falls Business Website"><img src="images/sir3.png" alt="Local Idaho Falls business website for Southern Idaho Rentals" /><span>Southern Idaho Rentals</span></a></li>
-          <li><a href="http://www.arnoldbeachhaven.com" target="_blank" title="Business Website"><img src="images/abh3.png" alt="Oregon based business website for Arnold Beach Haven" /><span>Arnold Beach Haven</span></a></li>
+          <li><a href="http://www.arnoldbeachhaven.com" target="_blank" title="Business Website"><img src="images/abh2.png" alt="Oregon based business website for Arnold Beach Haven" /><span>Arnold Beach Haven</span></a></li>
         </ul>
       </div>
     </div>
