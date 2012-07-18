@@ -96,7 +96,7 @@ if(isset($_SESSION['message'])) {
           <p>Once we fully understand everything we can about you, we will come up with the perfect strategy to meet all your goals and expectations.</p>
           <div class="line"></div>
           <h3>Looking For A Quote?</h3>
-          <p>Call us for a free consultation and website review. Or Use the form on the left to send us an email.</p>
+          <p>Call us for a free consultation and website review. Or use the form on the left to send us an email.</p>
           <h4>Phone: <span>208.390.7477 - (9am to 6pm)</span></h4>
           <h4>Email: <span>hello@claymoredesigns.com</span></h4>
         </section>

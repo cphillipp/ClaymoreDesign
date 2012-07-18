@@ -120,7 +120,7 @@ if(isset($_SESSION['message'])) {
           <h3>Q: Can you use my company&#8217;s existing logo, brochure design, and other materials for my website?</h3>
           <p><span>A:</span> Yes, we can certainly use your existing company literature such as logos’, brochure, etc. for incorporating in the new web site.</p>
           <div class="line"></div>
-          <h3>Q: What are the things that you expect form my company to complete the website design?</h3>
+          <h3>Q: What are the things that you expect from my company to complete the website design?</h3>
           <p><span>A:</span> Brochures, logos, photographs, product descriptions, business cards etc. are all recommended resources to use. For new businesses we will help you get started from scratch. A dedicated person will answer any questions during your website project.</p>
           <div class="line"></div>
           <h3>Q: Where are you located?</h3>

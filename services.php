@@ -120,7 +120,7 @@ if(isset($_SESSION['message'])) {
           </div>
           <div class="box">
             <h4>Ecommerce Solutions</h4>
-            <p>An online store is on of the best ways to make money on the internet. We have everything it takes to construct very detailed and user friendly shopping carts that you will be able to manage and control, with no problem.</p>
+            <p>An online store is one of the best ways to make money on the internet. We have everything it takes to construct very detailed and user friendly shopping carts that you will be able to manage and control, with no problem.</p>
           </div>
           <div class="box">
             <h4>Tracking &amp; Analytics</h4>
