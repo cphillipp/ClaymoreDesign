@@ -2721,3 +2721,46 @@ BDO[DIR="rtl"] {
 }
 
 /*The last 29 days of the month are the hardest."- Nikola Tesla*/
+
+/* CUSTOM */
+body 												{color:#FFFFFF; font-family:'Abel', arial, sans;}
+h1 													{color:#FFFFE0;}
+ul 													{margin:8px 0 0;}
+#container 											{max-width:100%; padding:0;}
+#header 											{height:100px; border-bottom: 1px solid lightYellow; position:relative;}
+#logo 												{margin:18px 0 18px 30px;}
+.menu, .menu ul										{float:right; clear:none; margin:27px 30px 0 0; background:none;}
+.menu a 											{margin:0 0.9em; padding:0; height:35px; background:none; border:none; color:lightYellow; text-decoration:none; text-transform:uppercase; text-shadow:none; font-size:15px;}
+.menu a:hover 										{background:none; color:#AFEEEE;}
+.menu .current_page_item a 							{background:none; color:#AFEEEE; border-bottom:1px dashed #AFEEEE;}
+#wrapper 											{margin:50px auto; padding:0 30px; border:none; background:none;}
+#featured 											{background:none; border:none;}
+.widget-wrapper 									{background:#282828; opacity: 0.6; filter: alpha(opacity=60); -moz-opacity: 0.6; border:none;}
+#widgets .tagcloud, #widgets .textwidget			{font-size:115%;}
+.widget-title, .widget-title-home h3 				{color:#FFFFFF; width:250px;}
+a.blue 												{background:#AFEEEE; background-image:none; border:none; color:#454545; text-shadow:none; -moz-border-radius:5px; border-radius:5px; -moz-transition-property:background; -moz-transition-duration:400ms; -webkit-transition-property:background; -webkit-transition-duration:400ms; -o-transition-property:background; -o-transition-duration:400ms; transition-property:background; transition-duration:400ms;}
+a.blue:hover 										{border:none; background:#496464; background-image:none; text-shadow:none; color:#ffffff;}
+#widgets 											{margin-top:1em;}
+#widgets ul li 										{margin:0; padding:0 1.5em 8px; list-style:none; background:url('images/marker.png') no-repeat 1px 4px;}
+#widgets a.clicker    								{padding:0 10px; width:200px; display:block; color:#ffffff; line-height:28px; background:#496464; text-align:center; text-decoration:none; -moz-border-radius:5px; border-radius:5px; -moz-transition-property:background; -moz-transition-duration:400ms; -webkit-transition-property:background; -webkit-transition-duration:400ms; -o-transition-property:background; -o-transition-duration:400ms; transition-property:background; transition-duration:400ms;}
+#widgets a.clicker:hover 							{background:#AFEEEE; color:#000000;}
+form p 												{padding:0 0 15px;}
+select, input[type="text"], input[type="password"] 	{background:#343434; height:40px; color:#FFF; font-size:20px; font-family:'Abel', arial, sans; border:none;-webkit-box-shadow: 0 0 0 #fff; -moz-box-shadow: 0 0 0 #fff; box-shadow: 0 0 0 #fff;}
+textarea 											{background:#343434; height:130px; color:#FFF; font-size:20px; font-family:'Abel', arial, sans; border:none; resize:none; -webkit-box-shadow: 0 0 0 #fff; -moz-box-shadow: 0 0 0 #fff; box-shadow: 0 0 0 #fff;}
+textarea:focus 										{background:#343434;}
+input[type="submit"] 								{background:#343434; color:#E3E3E3; font-size:14px; cursor:pointer; border:none; text-shadow:none; -webkit-box-shadow: 0 0 0 #fff; -moz-box-shadow: 0 0 0 #fff; box-shadow: 0 0 0 #fff;}
+input[type="submit"]:hover							{background:#666666; color:#E3E3E3; font-size:14px; cursor:pointer; border:none; text-shadow:none; -webkit-box-shadow: 0 0 0 #fff; -moz-box-shadow: 0 0 0 #fff; box-shadow: 0 0 0 #fff;}
+ul.portfolio                						{overflow:hidden;}
+ul.portfolio li              						{margin:0 30px 30px 0; width:28%; min-width:200px; display:block; float:left;}
+ul.portfolio li a 			            			{width:200px; display:block; float:left; text-decoration:none; background:#191A1F; opacity:0.5; filter:alpha(opacity=50); -moz-transition-property:opacity; -moz-transition-duration:400ms; -webkit-transition-property:opacity; -webkit-transition-duration:400ms; -o-transition-property:opacity; -o-transition-duration:400ms; transition-property:opacity; transition-duration:400ms;}
+ul.portfolio li a img 			        			{margin:0; display:block;}
+ul.portfolio li a span        						{width:200px; display:block; line-height:50px; color:#818692; text-align:center;}
+ul.portfolio li a:hover     						{background:#343434; opacity:1.0; filter:alpha(opacity=100);}
+ul.portfolio li a:hover span      					{background:#191A1F; color:#AFEEEE;}
+			
+#footer 											{padding:0 30px; max-width:100%; height:40px; color:#666666; line-height:40px; background:transparent; border-top:1px solid #F9459E; font-size:115%;}
+#footer a 											{color:#AEAEAE;}
+#footer a:hover 									{color:#FFFFE0;}
+#footer .col-940 									{display:none;}
+
+
